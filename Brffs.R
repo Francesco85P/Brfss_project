@@ -83,7 +83,7 @@ sleep_and_mental_health <-brfss2013_sleep |>
   rename("Days_bad_mental_health_for_month" ="mental_health") |>
   select(!n)
                                                               
-write.csv(sleep_and_mental_health, "sleep_and_mental_health")
+write.csv(sleep_and_mental_health, "sleep_and_mental_health.csv")
 
 # Plot of Diabetes and Body max index ---------------------------------------------
 
