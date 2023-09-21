@@ -8,3 +8,4 @@ Then, I tried to predict the diabetes status using a boosting model. I choose th
 
 I splitted the dataset in a train and test dataset, fitted the boosting model on the train datatset and predicted the diabetes status on the test dataset, I got a sensitivity of 0.53 and a specificity of 0.87. I plotted a confusion matrix to summarise the results of the analysis.
 
+The Brffs_Shiny.R is a file for a Shiny app that visualizes the reletionship between the diabetes status and some demographic, physical and behavioural varaibles extrcted from the dataset by the Variables_Shiny.R file
