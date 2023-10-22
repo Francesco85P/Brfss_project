@@ -1,6 +1,7 @@
 # Load libraries and data -------------------------------------------------
 library(tidyverse)
 library(ggmosaic)
+library(lvplot)
 library(gbm)
 
 load("brfss2013.RData")
@@ -96,18 +97,16 @@ brfss_diabetes<-brfss2013 |>
             TRUE ~ "Yes")
   )|>
   select(!diabete3)|>
-  rename("BMI"="X_bmi5")
-
-
+  rename("BMI"="X_bmi5") 
 ggsave(filename="Diabetes_and_BMI.png",  
   ggplot(data=brfss_diabetes,aes(diabetes, BMI))+
   theme_classic()+
-  geom_boxplot(aes(fill=diabetes))+
+  geom_lv(aes(fill=diabetes))+
   xlab("Diabetic")+
   labs(fill = "Diabetic")+
   theme(plot.title = element_text(hjust = 0.5)),
   width = 6, height = 4, dpi = 300, units = "in", device='png')
-  
+   
 
 # Predict Diabetes-----------------------------------------------------------
 
