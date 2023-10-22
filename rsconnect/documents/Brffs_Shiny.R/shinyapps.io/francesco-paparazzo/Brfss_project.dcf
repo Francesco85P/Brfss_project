@@ -1,0 +1,13 @@
+name: Brfss_project
+title: Brfss_project
+username: francesco-paparazzo
+account: francesco-paparazzo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9949377
+bundleId:
+url: https://francesco-paparazzo.shinyapps.io/Brfss_project/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Brffs.R|Confusion matrix.png|Diabetes_and_BMI.png|Income_and_Internet_usage.png|internet_access_vs_income.csv|README.md|sleep_and_mental_health.csv|Sleep_and_mental_health.png

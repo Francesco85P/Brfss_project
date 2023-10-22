@@ -2,6 +2,7 @@
 library(shiny)
 library(tidyverse)
 library(ggmosaic)
+library(lvplot)
 source("Variables_Shiny.R")
 
 
@@ -51,7 +52,7 @@ server <- function(input, output){
   else{ 
     ggplot(data=brfss_diabetes_predict, aes(x=diabetes,y=get(input$Plot)))+
     theme_classic()+
-    geom_boxplot(aes(fill=diabetes))+
+    geom_lv(aes(fill=diabetes))+
     labs(y="Diabetes", x= gsub("\\_", " ", input$Plot ),
            title = paste0("Diabetes and ", gsub("\\_", " ", input$Plot )))+
     theme(plot.title = element_text(hjust = 0.5))}
