@@ -1,6 +1,6 @@
 # Brfss_project
 
-I analyzed the 2013 Behavioral Risk Factor Surveillance System (BRFSS) dataset from the US CDC. A dataset description can be found [here](https://www2.stat.duke.edu/~cr173/Sta102_Sp16/Proj/).
+I analyzed the 2013 Behavioral Risk Factor Surveillance System (BRFSS) dataset from the US CDC. A dataset description can be found [here](https://www2.stat.duke.edu/~cr173/Sta102_Sp16/Proj/) .
 
 The code for the analysis is in the Brffs.R file, while the dataset is the brfss2013.RData file. I performed an exploratory data analysis and visualized the relationship among sleep and mental health, internet access and income and diabetes and body mass index.
 
