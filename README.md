@@ -1,6 +1,6 @@
 # Brfss_project
 
-I analyzed the 2013 Behavioral Risk Factor Surveillance System (BRFSS) dataset from the US CDC. A dataset description can be found [here](https://d3c33hcgiwev3.cloudfront.net/_e34476fda339107329fc316d1f98e042_brfss_codebook.html?Expires=1695427200&Signature=dacaRCig7zvD3kJD6eFEZOed9QcOYJi-BKXy5dMFM0kZ-glXDTKPE1d7~s0Y6nJpYi8DBlk0n0K-2V3GZJ5ixytrcJi2H3LaFB0u491Mh8hcB5vvfSZ4Zh9jYkZ8L5cHGTU7AqF3wmobfnuFbTsz1Bs4E2MO8sED-W-OChYIArM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A).
+I analyzed the 2013 Behavioral Risk Factor Surveillance System (BRFSS) dataset from the US CDC. A dataset description can be found [here](https://www2.stat.duke.edu/~cr173/Sta102_Sp16/Proj/).
 
 The code for the analysis is in the Brffs.R file, while the dataset is the brfss2013.RData file. I performed an exploratory data analysis and visualized the relationship among sleep and mental health, internet access and income and diabetes and body mass index.
 
