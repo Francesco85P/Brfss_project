@@ -11,5 +11,5 @@ I splitted the dataset in a train and test dataset, fitted the boosting model on
 The Brffs_Shiny.R file is for a Shiny app that visualizes the relationship between the diabetes status and some demographic, physical and behavioural variables extracted from the dataset by the Variables_Shiny.R file.
 
 
-https://github.com/Francesco85P/Brfss_project/assets/110105172/5adc7cdb-4dcf-4a1f-aa7e-d96865151b0c
+![](https://github.com/Francesco85P/Brfss_project/assets/110105172/5adc7cdb-4dcf-4a1f-aa7e-d96865151b0c)
 
